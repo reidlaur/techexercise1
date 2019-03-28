@@ -1,0 +1,44 @@
+nav select {
+  	display: none;}
+nav ul {  
+	text-align: center;}
+li {
+  	display: inline;
+}
+a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+body{ 
+	background-color:#E0BBE4;
+	
+}
+#mob { 	display: none; }
+
+#com{ 	text-align: center;
+		display: block;
+  		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 10em;
+		font-family: "Roboto", "Nadeem", "Gulim", "Calibri";
+  }
+
+
+
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+  body{ background-color:#A1DEE5;}
+
+  #mob{ text-align: center;
+  		display: block;
+  		color: white;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 5em;
+		font-family: "Roboto", "Nadeem", "Gulim", "Calibri";
+  }
+  #com { display: none; }
+}
